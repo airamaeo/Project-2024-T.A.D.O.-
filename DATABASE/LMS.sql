@@ -1,0 +1,57 @@
+-- DROP TABLE employees;
+-- DROP TABLE leave_requests;
+-- DROP TABLE leave_balances;
+
+-- ------------Table for employee information------------ -- 
+-- CREATE TABLE employees(
+-- 	employee_id INT PRIMARY KEY,
+-- 	first_name VARCHAR(50),
+-- 	last_name VARCHAR(50),
+-- 	email VARCHAR(100),
+-- 	password VARCHAR(25),
+-- 	employee_role VARCHAR(20)
+-- );
+
+-- ------------Table for leave requests------------ -- 
+-- CREATE TABLE leave_requests(
+-- 	employee_id INT,
+--     request_id INT PRIMARY KEY,
+--     start_date DATE,
+--     end_date DATE,
+-- 	request_type VARCHAR(50),
+--     request_status ENUM ('pending', 'approved', 'declined') DEFAULT 'pending',
+--     FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
+-- );
+
+-- ------------Table for calculating leave balances------------ -- 
+-- CREATE TABLE leave_balances(
+-- 	balance_id INT PRIMARY KEY,
+--     employee_id INT,
+--     annual_leave_balance INT DEFAULT 20,
+--     sick_leave_balance INT DEFAULT 10,
+--     bereavement_leave_balance INT DEFAULT 0,
+--     parental_leave_balance INT DEFAULT 0,    
+-- 	FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
+-- );
+
+-- ------------Inserting Values into the employees table------------ -- 
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('206198935', 'Cart', 'Stenner', 'cstenner0@gizmodo.com', 'manager');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('444999273', 'Ailis', 'Kitchingman', 'akitchingman1@guardian.co.uk', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('383916967', 'Pail', 'Spuner', 'pspuner2@taobao.com', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('172842336', 'Blakelee', 'O''Scanlon', 'boscanlon3@senate.gov', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('163380741', 'Katherina', 'Dilon', 'kdilon4@psu.edu', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('533211755', 'Hadrian', 'Chellam', 'hchellam5@gravatar.com', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('915779153', 'Leilah', 'Labusch', 'llabusch6@un.org', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('987712194', 'Lura', 'Besque', 'lbesque7@gravatar.com', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('717209532', 'Rosalia', 'Yelland', 'ryelland8@elpais.com', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('333309648', 'Johnathon', 'Connow', 'jconnow9@japanpost.jp', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('257365181', 'Findley', 'Ritchie', 'fritchiea@weather.com', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('614555791', 'Beitris', 'Perel', 'bperelb@google.it', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('750065417', 'Trixie', 'Wonham', 'twonhamc@uiuc.edu', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('721349245', 'Carin', 'Brotherhood', 'cbrotherhoodd@nasa.gov', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('808768235', 'Patten', 'Rousell', 'prouselle@admin.ch', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('701346923', 'Pierre', 'Gerg', 'pgergf@discuz.net', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('367037208', 'Alvira', 'Hiddy', 'ahiddyg@netvibes.com', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('626040715', 'Phil', 'Peacop', 'ppeacoph@oaic.gov.au', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('239015540', 'Bowie', 'Robertacci', 'brobertaccii@tamu.edu', 'employee');
+-- insert into employees (employee_id, first_name, last_name, email, employee_role) values ('683781828', 'Royce', 'Longega', 'rlongegaj@admin.ch', 'employee');
