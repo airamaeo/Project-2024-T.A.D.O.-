@@ -1,0 +1,166 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    /* Ensures the Navbar is above other content */
+}
+
+/* --------------------------------------------------------- */
+.home-container1 {
+    height: 40vh;
+    padding: 7%;
+}
+
+.home1-title {
+    display: flex;
+    align-items: center;
+}
+
+.home1-content {
+    display: inline-block;
+    padding: 5%;
+}
+
+.home1-content h3 {
+    color: #3b3b3b;
+    font-weight: lighter;
+}
+
+.home1-title img {
+    max-width: 35%;
+    height: 30%;
+    border-radius: 30%;
+}
+
+.home1-demo-btn,
+.home1-about-btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-right: 15px;
+    background-color: #FFD774;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+/* --------------------------------------------------------- */
+.home-container2 {
+    padding: 2%;
+    background-color: #ffd87473;
+}
+
+.home-image-container2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.home-image-container2 svg {
+    width: 100px;
+    height: 100px;
+}
+
+.home2-title {
+    text-align: center;
+}
+
+/* --------------------------------------------------------- */
+.home-container3 {
+    padding: 50px;
+    background-color: #ffd87473;
+
+}
+
+.home-carousel-slide-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-carousel-slide-content img {
+    max-width: 100px;
+    max-height: 80px;
+}
+
+/* --------------------------------------------------------- */
+.home-container4 {
+    padding: 50px;
+}
+
+.home-container4-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home4-section {
+    padding: 0px 50px;
+}
+
+/* --------------------------------------------------------- */
+.home-container5 {
+    padding: 50px;
+    background-color: #FFD774;
+}
+
+.home-container5-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home5-title {
+    padding: 30px 100px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.faq-content {
+    width: 600px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.faq-content h2 {
+    font-weight: bold;
+}
+
+.faq-content p {
+    font-weight: lighter;
+}
+
+.dropdown-btn {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-weight: bolder;
+    background-color: #f0efefe7;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.dropdown-content {
+    display: contents;
+    font-style: italic;
+}
+
+.dropdown-content p {
+    margin: 0;
+    padding: 20px 25px;
+}
+
+.active {
+    display: block;
+}
+
+.dropdown-btn::after {
+    content: "\25BE";
+    float: right;
+    margin-left: 5px;
+}
+
+.active .dropdown-btn::after {
+    transform: rotate(180deg);
+}

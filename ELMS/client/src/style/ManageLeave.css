@@ -1,0 +1,36 @@
+.manage-leave-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Add some space between the heading and buttons */
+}
+
+.ml-Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.ml-options {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.ml-options button {
+    margin-right: 10px;
+    color: #29B3FF;
+    background-color: transparent;
+    border: 1px solid #29B3FF;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.ml-options button:hover {
+    background-color: #29B3FF;
+    color: #fff;
+}

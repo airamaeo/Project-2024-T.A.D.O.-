@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder
+}
+
+.navbar {
+    font-size: larger;
+    background-color: #ffffff;
+    color: black;
+    height: 100px;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #FFD774;
+}
+
+
+.navbar img {
+    max-width: 250px;
+    height: 60%;
+}
+
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    padding: 0 10px;
+}
+
+.logo-image {
+    height: 40px;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-item {
+    padding: 0 10px;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.register-button,
+.login-button {
+    padding: 15px 25px;
+    /* Increased padding to make the buttons bigger */
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    /* Increased font size */
+}
+
+.register-button {
+    background-color: #29B3FF;
+}
+
+
+.login-button {
+    background-color: #FBC00E;
+    margin-right: 50px;
+}

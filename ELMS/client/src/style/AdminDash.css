@@ -1,0 +1,64 @@
+.admin-dash-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.admin-dash-container h2 {
+    text-align: center;
+}
+
+.admin-dash-container ul {
+    list-style-type: none;
+}
+
+.leave-request {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.leave-request-info {
+    margin-bottom: 10px;
+}
+
+.leave-request-buttons button {
+    margin-right: 10px;
+}
+
+
+.leave-request {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.leave-request-info {
+    font-weight: lighter;
+}
+
+.leave-request-info span {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+
+.leave-request-buttons button {
+    margin-right: 10px;
+    color: #29B3FF;
+    background-color: transparent;
+    border: 1px solid #29B3FF;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.leave-request-buttons button:hover {
+    background-color: #29B3FF;
+    color: #fff;
+}

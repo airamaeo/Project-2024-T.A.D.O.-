@@ -1,0 +1,25 @@
+.calendar-container {
+    margin-left: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+#calendar {
+    max-width: 100%;
+}
+
+.calendar-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.calendar-footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.shifted .calendar-container {
+    margin-left: 0;
+}
